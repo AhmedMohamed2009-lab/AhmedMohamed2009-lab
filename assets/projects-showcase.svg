@@ -1,80 +1,132 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="100%" height="auto">
   <defs>
-    <linearGradient id="projShimmer" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
-      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.22" />
-      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
-      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="3.8s" repeatCount="indefinite" />
+    <linearGradient id="projCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#090D16" />
+    </linearGradient>
+
+    <linearGradient id="accentCarry" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+
+    <linearGradient id="accentCube" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EF4444" />
+    </linearGradient>
+
+    <linearGradient id="accentNexta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#A855F7" />
+    </linearGradient>
+
+    <linearGradient id="accentAssrar" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+
+    <linearGradient id="accentLink" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#14B8A6" />
     </linearGradient>
   </defs>
 
-  
-  <g transform="translate(20, 12)">
-    <rect x="6" y="6" width="465" height="155" rx="14" fill="#080A0F" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="#FF4D6D" stroke="#080A0F" stroke-width="4" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="url(#projShimmer)" />
-    <rect x="18" y="16" width="44" height="30" rx="7" fill="#080A0F" />
-    <text x="40" y="36" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" font-weight="900" fill="#FFF04B">01</text>
-    <text x="74" y="39" font-family="ui-sans-serif, sans-serif" font-size="22" font-weight="900" fill="#FFFFFF">Carry-Chic</text>
-    <text x="18" y="76" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#080A0F">Handmade bags online store</text>
-    <text x="18" y="102" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#121622">ahmedmohamed2009-lab.github.io/Carry-Chic/carrychic.html</text>
-    <rect x="18" y="116" width="118" height="26" rx="6" fill="#080A0F" />
-    <text x="77" y="133" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="800" fill="#6BFFB8">LIVE STORE ↗</text>
+  <!-- ================= ROW 1 (3 Cards) ================= -->
+
+  <!-- Card 1: Carry-Chic -->
+  <g transform="translate(10, 10)">
+    <rect width="298" height="175" rx="14" fill="url(#projCardBg)" stroke="#1E293B" stroke-width="1.2" />
+    <path d="M 0 14 Q 0 0 14 0 L 284 0 Q 298 0 298 14 L 298 4 L 0 4 Z" fill="url(#accentCarry)" />
+    
+    <!-- Tag & Number -->
+    <rect x="18" y="18" width="88" height="22" rx="6" fill="#064E3B" fill-opacity="0.6" stroke="#059669" stroke-width="0.8" />
+    <text x="62" y="33" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#34D399">E-COMMERCE</text>
+    <text x="278" y="34" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" font-weight="800" fill="#64748B">#01</text>
+
+    <!-- Title & Desc -->
+    <text x="18" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">Carry-Chic</text>
+    <text x="18" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Handmade bags &amp; accessories store</text>
+    <text x="18" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">with responsive catalog &amp; checkout UI.</text>
+
+    <!-- Tech Stack Pill -->
+    <text x="18" y="146" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#38BDF8">HTML5 • CSS3 • JavaScript</text>
   </g>
 
-  
-  <g transform="translate(515, 12)">
-    <rect x="6" y="6" width="465" height="155" rx="14" fill="#080A0F" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="#FF9F43" stroke="#080A0F" stroke-width="4" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="url(#projShimmer)" />
-    <rect x="18" y="16" width="44" height="30" rx="7" fill="#080A0F" />
-    <text x="40" y="36" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" font-weight="900" fill="#00E5FF">02</text>
-    <text x="74" y="39" font-family="ui-sans-serif, sans-serif" font-size="22" font-weight="900" fill="#080A0F">Cube Fire</text>
-    <text x="18" y="76" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#080A0F">A simple game that u can play with ur friends</text>
-    <text x="18" y="102" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#121622">ahmedmohamed2009-lab.github.io/cube-fire/</text>
-    <rect x="18" y="116" width="118" height="26" rx="6" fill="#080A0F" />
-    <text x="77" y="133" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="800" fill="#FFF04B">PLAY GAME ↗</text>
+  <!-- Card 2: Cube Fire -->
+  <g transform="translate(331, 10)">
+    <rect width="298" height="175" rx="14" fill="url(#projCardBg)" stroke="#1E293B" stroke-width="1.2" />
+    <path d="M 0 14 Q 0 0 14 0 L 284 0 Q 298 0 298 14 L 298 4 L 0 4 Z" fill="url(#accentCube)" />
+    
+    <!-- Tag & Number -->
+    <rect x="18" y="18" width="94" height="22" rx="6" fill="#78350F" fill-opacity="0.6" stroke="#D97706" stroke-width="0.8" />
+    <text x="65" y="33" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#FBBF24">WEB GAME</text>
+    <text x="278" y="34" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" font-weight="800" fill="#64748B">#02</text>
+
+    <!-- Title & Desc -->
+    <text x="18" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">Cube Fire</text>
+    <text x="18" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Fast-paced browser mini-game</text>
+    <text x="18" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">designed for casual friend competition.</text>
+
+    <!-- Tech Stack Pill -->
+    <text x="18" y="146" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#F59E0B">Canvas • Game Mechanics • JS</text>
   </g>
 
-  
-  <g transform="translate(20, 192)">
-    <rect x="6" y="6" width="465" height="155" rx="14" fill="#080A0F" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="#B892FF" stroke="#080A0F" stroke-width="4" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="url(#projShimmer)" />
-    <rect x="18" y="16" width="44" height="30" rx="7" fill="#080A0F" />
-    <text x="40" y="36" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" font-weight="900" fill="#6BFFB8">03</text>
-    <text x="74" y="39" font-family="ui-sans-serif, sans-serif" font-size="22" font-weight="900" fill="#080A0F">CEO of Nexta</text>
-    <text x="18" y="76" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#080A0F">Leading Nexta &amp; building digital experiences</text>
-    <text x="18" y="102" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#121622">mohamed-mma.github.io/Nexta/</text>
-    <rect x="18" y="116" width="118" height="26" rx="6" fill="#080A0F" />
-    <text x="77" y="133" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="800" fill="#00E5FF">VISIT NEXTA ↗</text>
+  <!-- Card 3: Nexta Ecosystem -->
+  <g transform="translate(652, 10)">
+    <rect width="298" height="175" rx="14" fill="url(#projCardBg)" stroke="#1E293B" stroke-width="1.2" />
+    <path d="M 0 14 Q 0 0 14 0 L 284 0 Q 298 0 298 14 L 298 4 L 0 4 Z" fill="url(#accentNexta)" />
+    
+    <!-- Tag & Number -->
+    <rect x="18" y="18" width="102" height="22" rx="6" fill="#312E81" fill-opacity="0.6" stroke="#6366F1" stroke-width="0.8" />
+    <text x="69" y="33" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#A5B4FC">CORE VENTURE</text>
+    <text x="278" y="34" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" font-weight="800" fill="#64748B">#03</text>
+
+    <!-- Title & Desc -->
+    <text x="18" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">Nexta Official</text>
+    <text x="18" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Digital agency &amp; creator initiative</text>
+    <text x="18" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">delivering custom modern web platforms.</text>
+
+    <!-- Tech Stack Pill -->
+    <text x="18" y="146" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#818CF8">Co-Founder • Web Architecture</text>
   </g>
 
-  
-  <g transform="translate(515, 192)">
-    <rect x="6" y="6" width="465" height="155" rx="14" fill="#080A0F" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="#00E5FF" stroke="#080A0F" stroke-width="4" />
-    <rect x="0" y="0" width="465" height="155" rx="14" fill="url(#projShimmer)" />
-    <rect x="18" y="16" width="44" height="30" rx="7" fill="#080A0F" />
-    <text x="40" y="36" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" font-weight="900" fill="#FF4D6D">04</text>
-    <text x="74" y="39" font-family="ui-sans-serif, sans-serif" font-size="22" font-weight="900" fill="#080A0F">Assrar</text>
-    <text x="18" y="76" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#080A0F">Collab with Mohamed Mahmoud under Nexta brand</text>
-    <text x="18" y="102" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#121622">assrar-market.vercel.app/</text>
-    <rect x="18" y="116" width="118" height="26" rx="6" fill="#080A0F" />
-    <text x="77" y="133" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="800" fill="#6BFFB8">OPEN APP ↗</text>
+  <!-- ================= ROW 2 (2 Wider Cards) ================= -->
+
+  <!-- Card 4: Assrar Market -->
+  <g transform="translate(80, 205)">
+    <rect width="380" height="175" rx="14" fill="url(#projCardBg)" stroke="#1E293B" stroke-width="1.2" />
+    <path d="M 0 14 Q 0 0 14 0 L 366 0 Q 380 0 380 14 L 380 4 L 0 4 Z" fill="url(#accentAssrar)" />
+    
+    <!-- Tag & Number -->
+    <rect x="20" y="18" width="112" height="22" rx="6" fill="#831843" fill-opacity="0.6" stroke="#DB2777" stroke-width="0.8" />
+    <text x="76" y="33" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#F472B6">MARKETPLACE</text>
+    <text x="358" y="34" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" font-weight="800" fill="#64748B">#04</text>
+
+    <!-- Title & Desc -->
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">Assrar Market</text>
+    <text x="20" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Collaborative digital storefront built under Nexta</text>
+    <text x="20" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">with Mohamed Mahmoud for modern online commerce.</text>
+
+    <!-- Tech Stack Pill -->
+    <text x="20" y="146" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#FB7185">Vercel • Nexta Collab • Web App</text>
   </g>
 
-  
-  <g transform="translate(265, 372)">
-    <rect x="6" y="6" width="470" height="160" rx="14" fill="#080A0F" />
-    <rect x="0" y="0" width="470" height="160" rx="14" fill="#6BFFB8" stroke="#080A0F" stroke-width="4" />
-    <rect x="0" y="0" width="470" height="160" rx="14" fill="url(#projShimmer)" />
-    <rect x="18" y="16" width="44" height="30" rx="7" fill="#080A0F" />
-    <text x="40" y="36" text-anchor="middle" font-family="ui-monospace, monospace" font-size="14" font-weight="900" fill="#FF9F43">05</text>
-    <text x="74" y="39" font-family="ui-sans-serif, sans-serif" font-size="22" font-weight="900" fill="#080A0F">Nexta Link</text>
-    <text x="18" y="76" font-family="ui-sans-serif, sans-serif" font-size="14" font-weight="700" fill="#080A0F">Connected hub &amp; project under Nexta brand</text>
-    <text x="18" y="102" font-family="ui-monospace, monospace" font-size="11.5" font-weight="700" fill="#121622">mohamed-mma.github.io/Nexta-Link/</text>
-    <rect x="18" y="116" width="118" height="26" rx="6" fill="#080A0F" />
-    <text x="77" y="133" text-anchor="middle" font-family="ui-monospace, monospace" font-size="11.5" font-weight="800" fill="#FFF04B">EXPLORE ↗</text>
+  <!-- Card 5: Nexta Link -->
+  <g transform="translate(500, 205)">
+    <rect width="380" height="175" rx="14" fill="url(#projCardBg)" stroke="#1E293B" stroke-width="1.2" />
+    <path d="M 0 14 Q 0 0 14 0 L 366 0 Q 380 0 380 14 L 380 4 L 0 4 Z" fill="url(#accentLink)" />
+    
+    <!-- Tag & Number -->
+    <rect x="20" y="18" width="112" height="22" rx="6" fill="#134E4A" fill-opacity="0.6" stroke="#0D9488" stroke-width="0.8" />
+    <text x="76" y="33" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="10" font-weight="700" fill="#2DD4BF">ECOSYSTEM HUB</text>
+    <text x="358" y="34" text-anchor="end" font-family="ui-monospace, monospace" font-size="12" font-weight="800" fill="#64748B">#05</text>
+
+    <!-- Title & Desc -->
+    <text x="20" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="800" fill="#FFFFFF">Nexta Link</text>
+    <text x="20" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">Central interconnected platform connecting projects,</text>
+    <text x="20" y="110" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="400" fill="#94A3B8">social channels, and shared team resources.</text>
+
+    <!-- Tech Stack Pill -->
+    <text x="20" y="146" font-family="ui-monospace, monospace" font-size="11" font-weight="600" fill="#38BDF8">Nexta Hub • Resource Directory</text>
   </g>
 </svg>

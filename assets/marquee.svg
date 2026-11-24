@@ -1,9 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 54" width="100%" height="auto">
-  <rect x="0" y="2" width="1000" height="50" rx="10" fill="#FFF04B" stroke="#080A0F" stroke-width="4" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 44" width="100%" height="auto">
+  <defs>
+    <linearGradient id="marqueeBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0F19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#0B0F19" />
+    </linearGradient>
+
+    <linearGradient id="fadeEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B0F19" stop-opacity="1" />
+      <stop offset="6%" stop-color="#0B0F19" stop-opacity="0" />
+      <stop offset="94%" stop-color="#0B0F19" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Container -->
+  <rect x="2" y="2" width="956" height="40" rx="8" fill="url(#marqueeBg)" stroke="#1E293B" stroke-width="1.2" />
+
+  <!-- Scrolling Content -->
   <g>
-    <text x="0" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" font-weight="900" fill="#080A0F" letter-spacing="1.2">
-      ★ JUNIOR SOFTWARE ENGINEER ★ WEB DEVELOPMENT ★ CEO OF NEXTA ★ CARRY-CHIC ★ CUBE FIRE ★ ASSRAR ★ STILL LEARNING &amp; TRYING ★ GAMING ★
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-520 0" dur="14s" repeatCount="indefinite" />
+    <text x="0" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', Consolas, monospace" font-size="12.5" font-weight="700" fill="#94A3B8" letter-spacing="1.2">
+      <tspan fill="#38BDF8">✦</tspan> FULL-STACK WEB DEVELOPMENT 
+      <tspan fill="#818CF8">✦</tspan> CO-FOUNDER @ NEXTA 
+      <tspan fill="#34D399">✦</tspan> CARRY-CHIC E-COMMERCE 
+      <tspan fill="#F59E0B">✦</tspan> CUBE FIRE GAME 
+      <tspan fill="#C084FC">✦</tspan> ASSRAR MARKETPLACE 
+      <tspan fill="#38BDF8">✦</tspan> MODERN UI &amp; INTERACTIVE WEB 
+      <tspan fill="#F43F5E">✦</tspan> CONTINUOUS LEARNING 
+      <tspan fill="#38BDF8">✦</tspan> FULL-STACK WEB DEVELOPMENT 
+      <tspan fill="#818CF8">✦</tspan> CO-FOUNDER @ NEXTA 
+      <tspan fill="#34D399">✦</tspan> CARRY-CHIC E-COMMERCE 
+      <tspan fill="#F59E0B">✦</tspan> CUBE FIRE GAME 
+      <tspan fill="#C084FC">✦</tspan> ASSRAR MARKETPLACE 
+      <tspan fill="#38BDF8">✦</tspan> MODERN UI &amp; INTERACTIVE WEB 
+      <tspan fill="#F43F5E">✦</tspan> CONTINUOUS LEARNING 
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-780 0" dur="20s" repeatCount="indefinite" />
     </text>
   </g>
+
+  <!-- Edge Fade Gradient to smooth out marquee entrance/exit -->
+  <rect x="2" y="2" width="956" height="40" rx="8" fill="url(#fadeEdge)" pointer-events="none" />
 </svg>
