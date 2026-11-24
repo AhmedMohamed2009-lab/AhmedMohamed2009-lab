@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgAssrar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#831843" />
+      <stop offset="60%" stop-color="#4C0519" />
+      <stop offset="100%" stop-color="#831843" />
+    </linearGradient>
+
+    <!-- Animated Rose Shine -->
+    <linearGradient id="btnRose" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F43F5E" />
+      <stop offset="50%" stop-color="#FB7185" />
+      <stop offset="100%" stop-color="#F43F5E" />
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="2s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background with Shadow -->
+  <rect x="10" y="10" width="440" height="220" rx="16" fill="#000000" />
+  <rect x="6" y="6" width="440" height="220" rx="16" fill="url(#bgAssrar)" stroke="#FB7185" stroke-width="3" />
+
+  <!-- Corner Tag -->
+  <g transform="translate(24, 20)">
+    <rect x="0" y="0" width="140" height="24" rx="6" fill="#000000" stroke="#FB7185" stroke-width="1.5" />
+    <circle cx="12" cy="12" r="4" fill="#FB7185">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite" />
+    </circle>
+    <text x="24" y="16" font-family="'Impact', Arial, sans-serif" font-size="11" fill="#FDA4AF" letter-spacing="1">
+      🛍️ NEXTA COLLAB
+    </text>
+  </g>
+
+  <!-- Floating Sticker (Wobbling) -->
+  <g transform="translate(305, 16) rotate(-3)">
+    <rect x="0" y="0" width="125" height="26" rx="6" fill="#FFE600" stroke="#000000" stroke-width="2" />
+    <text x="62" y="17" text-anchor="middle" font-family="'Impact', Arial, sans-serif" font-size="10.5" font-weight="900" fill="#000000">
+      🔥 EXCLUSIVE DEALS
+    </text>
+    <animateTransform attributeName="transform" type="rotate" values="-3; 3; -3" dur="2.8s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Big Project Title -->
+  <g transform="translate(24, 82)">
+    <text x="2" y="2" font-family="'Impact', Arial Black, sans-serif" font-size="34" fill="#000000">
+      💎 Assrar Market
+    </text>
+    <text x="0" y="0" font-family="'Impact', Arial Black, sans-serif" font-size="34" fill="#FFFFFF">
+      💎 Assrar Market
+    </text>
+  </g>
+
+  <!-- Catchy Subtitle -->
+  <text x="24" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FECDD3">
+    Nexta collaboration with Mohamed Mahmoud.
+  </text>
+  <text x="24" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#FDA4AF">
+    Modern digital marketplace &amp; streamlined storefront.
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(24, 146)">
+    <rect x="0" y="0" width="60" height="20" rx="4" fill="#4C0519" stroke="#FB7185" stroke-width="1" />
+    <text x="30" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#FB7185">Vercel</text>
+
+    <rect x="66" y="0" width="80" height="20" rx="4" fill="#4C0519" stroke="#FB7185" stroke-width="1" />
+    <text x="106" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#FB7185">E-Commerce</text>
+
+    <rect x="152" y="0" width="70" height="20" rx="4" fill="#4C0519" stroke="#FB7185" stroke-width="1" />
+    <text x="187" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#FB7185">Nexta App</text>
+  </g>
+
+  <!-- ================= BIG CLICKABLE ACTION BUTTON ================= -->
+  <g transform="translate(24, 180)">
+    <!-- Button Shadow -->
+    <rect x="4" y="4" width="408" height="38" rx="10" fill="#000000" />
+    <!-- Main Button Body with Glowing Rose Sweep -->
+    <rect x="0" y="0" width="408" height="38" rx="10" fill="#FB7185" stroke="#000000" stroke-width="2.5" />
+    <rect x="0" y="0" width="408" height="38" rx="10" fill="url(#btnRose)" opacity="0.6" />
+
+    <!-- Button Text -->
+    <text x="204" y="24" text-anchor="middle" font-family="'Impact', Arial Black, sans-serif" font-size="16" font-weight="900" fill="#000000" letter-spacing="1.2">
+      🛍️ VISIT ASSRAR MARKET (CLICK HERE) ↗
+    </text>
+  </g>
+</svg>

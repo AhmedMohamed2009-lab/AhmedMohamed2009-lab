@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgCube" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#450A0A" />
+      <stop offset="60%" stop-color="#1F0404" />
+      <stop offset="100%" stop-color="#450A0A" />
+    </linearGradient>
+
+    <!-- Animated Neon Flame Sweep -->
+    <linearGradient id="btnFlame" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EF4444" />
+      <stop offset="50%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EF4444" />
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="1.8s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Background with Shadow -->
+  <rect x="10" y="10" width="440" height="220" rx="16" fill="#000000" />
+  <rect x="6" y="6" width="440" height="220" rx="16" fill="url(#bgCube)" stroke="#F59E0B" stroke-width="3" />
+
+  <!-- Corner Tag -->
+  <g transform="translate(24, 20)">
+    <rect x="0" y="0" width="135" height="24" rx="6" fill="#000000" stroke="#EF4444" stroke-width="1.5" />
+    <circle cx="12" cy="12" r="4" fill="#EF4444">
+      <animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="24" y="16" font-family="'Impact', Arial, sans-serif" font-size="11" fill="#F59E0B" letter-spacing="1">
+      🎮 BROWSER GAME
+    </text>
+  </g>
+
+  <!-- Floating Sticker (Wobbling) -->
+  <g transform="translate(305, 16) rotate(-4)">
+    <rect x="0" y="0" width="125" height="26" rx="6" fill="#EF4444" stroke="#000000" stroke-width="2" />
+    <text x="62" y="17" text-anchor="middle" font-family="'Impact', Arial, sans-serif" font-size="10.5" font-weight="900" fill="#FFFFFF">
+      ⚠️ DON'T RAGE QUIT
+    </text>
+    <animateTransform attributeName="transform" type="rotate" values="-4; 3; -4" dur="2.5s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Big Project Title -->
+  <g transform="translate(24, 82)">
+    <text x="2" y="2" font-family="'Impact', Arial Black, sans-serif" font-size="34" fill="#000000">
+      🔥 Cube Fire
+    </text>
+    <text x="0" y="0" font-family="'Impact', Arial Black, sans-serif" font-size="34" fill="#FFE600">
+      🔥 Cube Fire
+    </text>
+  </g>
+
+  <!-- Catchy Subtitle -->
+  <text x="24" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#FCA5A5">
+    The ultimate browser game to challenge your friends!
+  </text>
+  <text x="24" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#FED7AA">
+    Fast-paced mechanics, arcade action &amp; pure adrenaline.
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(24, 146)">
+    <rect x="0" y="0" width="75" height="20" rx="4" fill="#1F0404" stroke="#EF4444" stroke-width="1" />
+    <text x="37" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#F59E0B">JavaScript</text>
+
+    <rect x="81" y="0" width="60" height="20" rx="4" fill="#1F0404" stroke="#EF4444" stroke-width="1" />
+    <text x="111" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#F59E0B">Canvas</text>
+
+    <rect x="147" y="0" width="70" height="20" rx="4" fill="#1F0404" stroke="#EF4444" stroke-width="1" />
+    <text x="182" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#F59E0B">Game Loop</text>
+  </g>
+
+  <!-- ================= BIG CLICKABLE ACTION BUTTON ================= -->
+  <g transform="translate(24, 180)">
+    <!-- Button Shadow -->
+    <rect x="4" y="4" width="408" height="38" rx="10" fill="#000000" />
+    <!-- Main Button Body with Glowing Flame Sweep -->
+    <rect x="0" y="0" width="408" height="38" rx="10" fill="#F59E0B" stroke="#000000" stroke-width="2.5" />
+    <rect x="0" y="0" width="408" height="38" rx="10" fill="url(#btnFlame)" opacity="0.6" />
+
+    <!-- Button Text -->
+    <text x="204" y="24" text-anchor="middle" font-family="'Impact', Arial Black, sans-serif" font-size="16" font-weight="900" fill="#000000" letter-spacing="1.2">
+      🕹️ PLAY GAME NOW (CLICK HERE) ↗
+    </text>
+  </g>
+</svg>

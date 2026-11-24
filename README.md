@@ -1,19 +1,14 @@
 <div align="center">
 
-<!-- Hero Banner -->
+<!-- Hero Arcade Banner with Animated Mascot & Quotes -->
 <a href="https://github.com/AhmedMohamed2009-lab">
-  <img src="./assets/hero-banner.svg" alt="Ahmed Mohamed - Banner" width="100%" />
+  <img src="./assets/hero-banner.svg" alt="Ahmed Mohamed Arcade Banner" width="100%" />
 </a>
 
-<!-- Animated Ticker Marquee -->
+<!-- Funny Running Ticker -->
 <a href="https://github.com/AhmedMohamed2009-lab">
-  <img src="./assets/marquee.svg" alt="Tech Marquee" width="100%" />
+  <img src="./assets/marquee.svg" alt="Funny Running Marquee" width="100%" />
 </a>
-
-<br/>
-
-<!-- Core Pillars / Highlights -->
-<img src="./assets/vibes-badges.svg" alt="Core Highlights" width="100%" />
 
 </div>
 
@@ -21,42 +16,90 @@
 
 ---
 
-### 👨‍💻 About Me
+### 🕹️ Player 1 Stats & Bio
 
 ```yaml
-name: Ahmed Mohamed
-alias: @tOlbaa
-location: Egypt 🇪🇬
-current_focus: Building modern web applications & interactive digital experiences
-ventures: Co-Founder @ Nexta
-interests: [Frontend Architecture, UI/UX Design, Web Games, Open Source]
+Character: Ahmed Mohamed (@tOlbaa)
+Class: Full-Stack Sorcerer / Junior SWE
+Location: Cairo, Egypt 🇪🇬
+Guild: Co-Founder & CEO @ Nexta 👔
+Special_Ability: Turning caffeine & shawarma into working web apps 🧆☕
+Current_Status: "Staring at CSS until it behaves itself."
 ```
 
-- 🚀 **Co-Founder @ Nexta** — Leading and collaborating on modern web platforms and creative digital initiatives.
-- 💡 **Passionate about Frontend Engineering** — Crafting responsive, intuitive, and accessible user interfaces.
-- 🎮 **Game & Creative Coding Experimenter** — Developing browser-based arcade games like [Cube Fire](https://ahmedmohamed2009-lab.github.io/cube-fire/).
-- 📈 **Continuous Learner** — Exploring modern JavaScript/TypeScript ecosystems, component architectures, and web performance.
-- 🤝 **Open for Collaborations** — Eager to contribute to meaningful digital products and open-source projects.
+- 👑 **CEO @ Nexta** — Leading the squad to build slick digital platforms and web ventures.
+- 🎮 **Arcade Creator** — Built [Cube Fire](https://ahmedmohamed2009-lab.github.io/cube-fire/) to challenge my friends (and watch them rage quit).
+- 💻 **Frontend Fanatic** — Crafting responsive UI, snappy animations, and interactive apps that don't look like they were made in 1998.
+- 🐛 **Bug Exterminator** — I don't always test my code, but when I do, I do it in production *(just kidding, please don't fire me)*.
+- 🤝 **Ready for Co-Op** — Got an exciting project or want to collab on something cool? Hit me up!
 
 <br/>
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 🚀 Featured Creations & Nexta Empire
+> **💡 Pro Tip:** Every banner below is fully interactive. Click anywhere on a banner to launch that site or game directly!
 
 <div align="center">
 
-#### Languages & Core Technologies
+<p align="center">
+  <a href="https://ahmedmohamed2009-lab.github.io/Carry-Chic/carrychic.html" target="_blank">
+    <img src="./assets/card-carrychic.svg" width="48%" alt="Carry Chic Store" />
+  </a>
+  &nbsp;
+  <a href="https://ahmedmohamed2009-lab.github.io/cube-fire/" target="_blank">
+    <img src="./assets/card-cubefire.svg" width="48%" alt="Cube Fire Game" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://mohamed-mma.github.io/Nexta/" target="_blank">
+    <img src="./assets/card-nexta.svg" width="48%" alt="Nexta Official" />
+  </a>
+  &nbsp;
+  <a href="https://assrar-market.vercel.app/" target="_blank">
+    <img src="./assets/card-assrar.svg" width="48%" alt="Assrar Market" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://mohamed-mma.github.io/Nexta-Link/" target="_blank">
+    <img src="./assets/card-nextalink.svg" width="98%" alt="Nexta Link Gateway" />
+  </a>
+</p>
+
+</div>
+
+<br/>
+
+#### 📋 Quick Direct Links Table
+| Project | Type | What is it? | Quick Action |
+| :--- | :--- | :--- | :--- |
+| **Carry-Chic** | 👜 E-Commerce | Handmade bags online boutique with smooth catalog UI | [🛍️ Visit Carry-Chic Store](https://ahmedmohamed2009-lab.github.io/Carry-Chic/carrychic.html) |
+| **Cube Fire** | 🎮 Web Game | Fast-paced browser arcade game for friend battles | [🕹️ Play Cube Fire Game](https://ahmedmohamed2009-lab.github.io/cube-fire/) |
+| **Nexta Official** | 🚀 Agency HQ | Official home of Nexta digital agency & creative collective | [🌐 Explore Nexta HQ](https://mohamed-mma.github.io/Nexta/) |
+| **Assrar Market** | 🛒 Marketplace | Nexta collab with Mohamed Mahmoud for online commerce | [💎 Open Assrar Market](https://assrar-market.vercel.app/) |
+| **Nexta Link** | 🛸 Portal Hub | One link to teleport to all Nexta projects & socials | [⚡ Launch Nexta Link](https://mohamed-mma.github.io/Nexta-Link/) |
+
+<br/>
+
+---
+
+### ⚔️ Weapons of Choice (Tech Stack)
+
+<div align="center">
+
+#### ⚡ Core Languages
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,ts,python&theme=dark" alt="Languages" />
 </p>
 
-#### Frameworks, Styling & Libraries
+#### 🎨 Styling & Frameworks
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,sass&theme=dark" alt="Frameworks" />
 </p>
 
-#### Tools, Platforms & Workflow
+#### 🛠️ Dev Tools & Environment
 <p align="center">
   <img src="https://skillicons.dev/icons?i=git,github,vscode,vercel,figma,vite&theme=dark" alt="Tools" />
 </p>
@@ -67,36 +110,16 @@ interests: [Frontend Architecture, UI/UX Design, Web Games, Open Source]
 
 ---
 
-### 🚀 Featured Projects & Nexta Ecosystem
-
-<div align="center">
-  <img src="./assets/projects-showcase.svg" alt="Featured Projects Showcase" width="100%" />
-</div>
-
-<br/>
-
-| Project | Category | Description | Tech Stack | Links |
-| :--- | :--- | :--- | :--- | :--- |
-| **Carry-Chic** | 🛍️ E-Commerce | Modern online boutique for handmade bags featuring responsive catalogs and sleek browsing. | `HTML5` `CSS3` `JavaScript` | [🌐 Live Demo](https://ahmedmohamed2009-lab.github.io/Carry-Chic/carrychic.html) • [📂 Repo](https://github.com/AhmedMohamed2009-lab/Carry-Chic) |
-| **Cube Fire** | 🎮 Web Game | Fast-paced browser arcade game built for real-time fun with friends. | `JavaScript` `Canvas` `CSS3` | [🎮 Play Game](https://ahmedmohamed2009-lab.github.io/cube-fire/) • [📂 Repo](https://github.com/AhmedMohamed2009-lab/cube-fire) |
-| **Nexta Official** | 🚀 Digital Agency | Co-founded digital initiative and tech collective delivering creative web platforms. | `Web Architecture` `UI/UX` | [🌐 Live Site](https://mohamed-mma.github.io/Nexta/) |
-| **Assrar Market** | 🛒 Marketplace | Collaborative digital storefront created under the Nexta brand in partnership with Mohamed Mahmoud. | `Web App` `Vercel` `Nexta` | [🛍️ Visit Store](https://assrar-market.vercel.app/) |
-| **Nexta Link** | 🔗 Ecosystem Hub | Centralized portal connecting all Nexta projects, resources, and community touchpoints. | `Resource Hub` `Portal` | [🔗 Open Hub](https://mohamed-mma.github.io/Nexta-Link/) |
-
-<br/>
-
----
-
-### 📊 GitHub Activity & Metrics
+### 📊 Proof That I Actually Code (GitHub Stats)
 
 <div align="center">
 
-  <img src="https://github-readme-stats.vercel.app/api?username=AhmedMohamed2009-lab&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0F19&title_color=38BDF8&text_color=94A3B8&icon_color=818CF8" height="165" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedMohamed2009-lab&layout=compact&theme=tokyonight&hide_border=true&bg_color=0B0F19&title_color=38BDF8&text_color=94A3B8" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=AhmedMohamed2009-lab&show_icons=true&theme=radical&hide_border=true&bg_color=0E0725&title_color=FFE600&text_color=00F0FF&icon_color=FF2A85" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AhmedMohamed2009-lab&layout=compact&theme=radical&hide_border=true&bg_color=0E0725&title_color=FFE600&text_color=00F0FF" height="165" alt="Top Languages" />
 
   <br/><br/>
 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedMohamed2009-lab&theme=tokyonight&hide_border=true&background=0B0F19&ring=38BDF8&fire=F43F5E&currStreakLabel=38BDF8" height="165" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=AhmedMohamed2009-lab&theme=radical&hide_border=true&background=0E0725&ring=00F0FF&fire=FF2A85&currStreakLabel=FFE600" height="165" alt="GitHub Streak" />
 
 </div>
 
@@ -104,7 +127,7 @@ interests: [Frontend Architecture, UI/UX Design, Web Games, Open Source]
 
 ---
 
-### 🐍 Contribution Graph
+### 🐍 The Holy Contribution Snake
 
 <div align="center">
   <picture>
@@ -118,24 +141,30 @@ interests: [Frontend Architecture, UI/UX Design, Web Games, Open Source]
 
 ---
 
-### 🌐 Connect With Me
+### 📫 Summon Me (Let's Connect!)
 
 <div align="center">
 
 <a href="https://github.com/AhmedMohamed2009-lab" target="_blank">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 &nbsp;
 <a href="https://mohamed-mma.github.io/Nexta/" target="_blank">
-  <img src="https://img.shields.io/badge/Nexta_Ecosystem-6366F1?style=for-the-badge&logo=vercel&logoColor=white" alt="Nexta" />
+  <img src="https://img.shields.io/badge/Nexta_Empire-FF2A85?style=for-the-badge&logo=vercel&logoColor=white" alt="Nexta" />
 </a>
 &nbsp;
 <a href="https://mohamed-mma.github.io/Nexta-Link/" target="_blank">
-  <img src="https://img.shields.io/badge/Nexta_Link-0EA5E9?style=for-the-badge&logo=linktree&logoColor=white" alt="Nexta Link" />
+  <img src="https://img.shields.io/badge/Nexta_Link-00F0FF?style=for-the-badge&logo=linktree&logoColor=black" alt="Nexta Link" />
 </a>
 
 <br/><br/>
 
-<sub>Crafted with passion • © Ahmed Mohamed</sub>
+```
+      /\_/\  
+     ( o.o )  "Thanks for dropping by! Now go play Cube Fire!"
+      > ^ <
+```
+
+<sub>Built with ⚡ & caffeine by **Ahmed Mohamed (@tOlbaa)**</sub>
 
 </div>

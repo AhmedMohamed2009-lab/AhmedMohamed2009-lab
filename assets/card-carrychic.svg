@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 240" width="100%" height="auto">
+  <defs>
+    <linearGradient id="bgCarry" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064E3B" />
+      <stop offset="60%" stop-color="#022C22" />
+      <stop offset="100%" stop-color="#064E3B" />
+    </linearGradient>
+
+    <!-- Animated Button Pulse -->
+    <linearGradient id="btnShine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="50%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+      <animateTransform attributeName="gradientTransform" type="translate" from="-1 0" to="1 0" dur="2s" repeatCount="indefinite" />
+    </linearGradient>
+
+    <!-- Floating Sticker Wobble -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="3" dy="4" stdDeviation="0" flood-color="#000000" />
+    </filter>
+  </defs>
+
+  <!-- Card Background with Shadow -->
+  <rect x="10" y="10" width="440" height="220" rx="16" fill="#000000" />
+  <rect x="6" y="6" width="440" height="220" rx="16" fill="url(#bgCarry)" stroke="#34D399" stroke-width="3" />
+
+  <!-- Corner Tag -->
+  <g transform="translate(24, 20)">
+    <rect x="0" y="0" width="130" height="24" rx="6" fill="#000000" stroke="#34D399" stroke-width="1.5" />
+    <circle cx="12" cy="12" r="4" fill="#34D399">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="24" y="16" font-family="'Impact', Arial, sans-serif" font-size="11" fill="#34D399" letter-spacing="1">
+      🛍️ E-COMMERCE
+    </text>
+  </g>
+
+  <!-- Floating Sticker (Wobbling) -->
+  <g transform="translate(320, 16) rotate(6)">
+    <rect x="0" y="0" width="105" height="26" rx="6" fill="#FBBF24" stroke="#000000" stroke-width="2" />
+    <text x="52" y="17" text-anchor="middle" font-family="'Impact', Arial, sans-serif" font-size="11" font-weight="900" fill="#000000">
+      100% HANDMADE
+    </text>
+    <animateTransform attributeName="transform" type="rotate" values="6; -2; 6" dur="3s" repeatCount="indefinite" />
+  </g>
+
+  <!-- Big Project Title -->
+  <g transform="translate(24, 82)">
+    <text x="2" y="2" font-family="'Impact', Arial Black, sans-serif" font-size="34" fill="#000000">
+      👜 Carry-Chic
+    </text>
+    <text x="0" y="0" font-family="'Impact', Arial Black, sans-serif" font-size="34" fill="#FFFFFF">
+      👜 Carry-Chic
+    </text>
+  </g>
+
+  <!-- Catchy Subtitle -->
+  <text x="24" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" fill="#A7F3D0">
+    Handcrafted luxury bags &amp; modern online boutique.
+  </text>
+  <text x="24" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#6EE7B7">
+    Responsive catalog, chic styling &amp; fast web store.
+  </text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(24, 146)">
+    <rect x="0" y="0" width="60" height="20" rx="4" fill="#022C22" stroke="#34D399" stroke-width="1" />
+    <text x="30" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#34D399">HTML5</text>
+
+    <rect x="66" y="0" width="55" height="20" rx="4" fill="#022C22" stroke="#34D399" stroke-width="1" />
+    <text x="93" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#34D399">CSS3</text>
+
+    <rect x="127" y="0" width="75" height="20" rx="4" fill="#022C22" stroke="#34D399" stroke-width="1" />
+    <text x="164" y="14" text-anchor="middle" font-family="monospace" font-size="9.5" font-weight="700" fill="#34D399">JavaScript</text>
+  </g>
+
+  <!-- ================= BIG CLICKABLE ACTION BUTTON ================= -->
+  <g transform="translate(24, 180)">
+    <!-- Button Shadow -->
+    <rect x="4" y="4" width="408" height="38" rx="10" fill="#000000" />
+    <!-- Main Button Body with Glowing Pulse -->
+    <rect x="0" y="0" width="408" height="38" rx="10" fill="#34D399" stroke="#000000" stroke-width="2.5" />
+    <rect x="0" y="0" width="408" height="38" rx="10" fill="url(#btnShine)" opacity="0.6" />
+
+    <!-- Button Text -->
+    <text x="204" y="24" text-anchor="middle" font-family="'Impact', Arial Black, sans-serif" font-size="16" font-weight="900" fill="#000000" letter-spacing="1.2">
+      🛍️ VISIT STORE (CLICK HERE) ↗
+    </text>
+  </g>
+</svg>

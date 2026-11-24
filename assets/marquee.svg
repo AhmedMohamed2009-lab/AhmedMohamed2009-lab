@@ -1,43 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 44" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 48" width="100%" height="auto">
   <defs>
-    <linearGradient id="marqueeBg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0B0F19" />
-      <stop offset="50%" stop-color="#111827" />
-      <stop offset="100%" stop-color="#0B0F19" />
+    <linearGradient id="marqBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE600" />
+      <stop offset="50%" stop-color="#FF2A85" />
+      <stop offset="100%" stop-color="#00F0FF" />
     </linearGradient>
 
     <linearGradient id="fadeEdge" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0B0F19" stop-opacity="1" />
-      <stop offset="6%" stop-color="#0B0F19" stop-opacity="0" />
-      <stop offset="94%" stop-color="#0B0F19" stop-opacity="0" />
-      <stop offset="100%" stop-color="#0B0F19" stop-opacity="1" />
+      <stop offset="0%" stop-color="#0E0725" stop-opacity="1" />
+      <stop offset="5%" stop-color="#0E0725" stop-opacity="0" />
+      <stop offset="95%" stop-color="#0E0725" stop-opacity="0" />
+      <stop offset="100%" stop-color="#0E0725" stop-opacity="1" />
     </linearGradient>
   </defs>
 
-  <!-- Container -->
-  <rect x="2" y="2" width="956" height="40" rx="8" fill="url(#marqueeBg)" stroke="#1E293B" stroke-width="1.2" />
+  <!-- Container Box -->
+  <rect x="2" y="2" width="956" height="44" rx="10" fill="#0E0725" stroke="#FFE600" stroke-width="2.5" />
 
-  <!-- Scrolling Content -->
+  <!-- Animated Running Text Ticker -->
   <g>
-    <text x="0" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', Consolas, monospace" font-size="12.5" font-weight="700" fill="#94A3B8" letter-spacing="1.2">
-      <tspan fill="#38BDF8">✦</tspan> FULL-STACK WEB DEVELOPMENT 
-      <tspan fill="#818CF8">✦</tspan> CO-FOUNDER @ NEXTA 
-      <tspan fill="#34D399">✦</tspan> CARRY-CHIC E-COMMERCE 
-      <tspan fill="#F59E0B">✦</tspan> CUBE FIRE GAME 
-      <tspan fill="#C084FC">✦</tspan> ASSRAR MARKETPLACE 
-      <tspan fill="#38BDF8">✦</tspan> MODERN UI &amp; INTERACTIVE WEB 
-      <tspan fill="#F43F5E">✦</tspan> CONTINUOUS LEARNING 
-      <tspan fill="#38BDF8">✦</tspan> FULL-STACK WEB DEVELOPMENT 
-      <tspan fill="#818CF8">✦</tspan> CO-FOUNDER @ NEXTA 
-      <tspan fill="#34D399">✦</tspan> CARRY-CHIC E-COMMERCE 
-      <tspan fill="#F59E0B">✦</tspan> CUBE FIRE GAME 
-      <tspan fill="#C084FC">✦</tspan> ASSRAR MARKETPLACE 
-      <tspan fill="#38BDF8">✦</tspan> MODERN UI &amp; INTERACTIVE WEB 
-      <tspan fill="#F43F5E">✦</tspan> CONTINUOUS LEARNING 
-      <animateTransform attributeName="transform" type="translate" from="0 0" to="-780 0" dur="20s" repeatCount="indefinite" />
+    <text x="0" y="30" font-family="'Impact', 'Arial Black', ui-monospace, sans-serif" font-size="14" font-weight="900" fill="#FFFFFF" letter-spacing="1.2">
+      <tspan fill="#FFE600">★ 👑 CEO OF NEXTA</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#00F0FF">🎮 PLAY CUBE FIRE (DON'T CRY IF YOU LOSE)</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#FF2A85">☕ POWERED BY CAFFEINE &amp; FALAFEL</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#34D399">👜 CARRY-CHIC STORE</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#FFE600">🐛 99 LITTLE BUGS IN THE CODE, FIX 1, 127 BUGS LEFT</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#00F0FF">🛒 ASSRAR MARKETPLACE</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#FF2A85">⚡ 404: SLEEP NOT FOUND</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#34D399">🛸 NEXTA LINK PORTAL</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan>
+      <tspan fill="#FFE600">★ 👑 CEO OF NEXTA</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#00F0FF">🎮 PLAY CUBE FIRE (DON'T CRY IF YOU LOSE)</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#FF2A85">☕ POWERED BY CAFFEINE &amp; FALAFEL</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#34D399">👜 CARRY-CHIC STORE</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#FFE600">🐛 99 LITTLE BUGS IN THE CODE, FIX 1, 127 BUGS LEFT</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#00F0FF">🛒 ASSRAR MARKETPLACE</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#FF2A85">⚡ 404: SLEEP NOT FOUND</tspan> 
+      <tspan fill="#FFFFFF">✦</tspan> 
+      <tspan fill="#34D399">🛸 NEXTA LINK PORTAL</tspan> 
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1200 0" dur="20s" repeatCount="indefinite" />
     </text>
   </g>
 
-  <!-- Edge Fade Gradient to smooth out marquee entrance/exit -->
-  <rect x="2" y="2" width="956" height="40" rx="8" fill="url(#fadeEdge)" pointer-events="none" />
+  <!-- Edge Fade -->
+  <rect x="2" y="2" width="956" height="44" rx="10" fill="url(#fadeEdge)" pointer-events="none" />
 </svg>
